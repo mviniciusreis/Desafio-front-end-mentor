@@ -1,0 +1,103 @@
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* font-family: 'Fraunces', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+.autorais {
+    font-size: 11px; text-align: center;
+}
+.autorais a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 345px;
+    
+}
+
+.imagem {
+    border-radius: 10px 0 0 10px; 
+}
+
+.imagem .desktop {
+    display: flex;
+    width: 350px;
+    align-self: left;
+    margin-right: 30px;
+}
+
+.informacoes {
+    display: block;
+    margin-left: 30px ;
+}
+
+.previa {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(60, 1%, 68%);
+    margin-bottom: 20px; 
+}
+
+.titulo {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(60, 1%, 68%);
+    margin-bottom: 20px;
+}
+
+.preco {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.preco-desconto {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.preco-cheio {
+    display: inline;
+    margin-left: 20px;
+    color: hsl(60, 1%, 68%);
+    text-decoration: line-through;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+svg {
+    margin-right: 10px;
+}

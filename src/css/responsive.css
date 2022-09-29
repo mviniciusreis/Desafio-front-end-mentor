@@ -1,0 +1,23 @@
+@media (max-width: 1000px) {
+    .painel {
+        display: block;
+        flex-wrap: wrap; 
+        
+    }
+
+    div {
+        margin: 20px;
+    }
+
+    .imagem {
+        border-radius: 10px 10px 0 0; 
+    }
+
+    .previa {
+        margin-top: 20px;
+    }
+
+    .botao {
+        width: 300px;
+    }
+}
